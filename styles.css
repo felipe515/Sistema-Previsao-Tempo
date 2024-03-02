@@ -30,7 +30,7 @@ body{
     border-radius: 25px;
     font-size: 18px;
     background-color: #7c7c7c2b;
-    color: #ffffff;  /*cor do texto*/
+    color: #ffffff;  
     width: calc(100% - 70px); /**/
 
 }
@@ -39,10 +39,10 @@ body{
     border: none;
     outline: none;
     padding: 10px;
-    border-radius: 50px; /*deixa botao redondo*/
+    border-radius: 50px; 
     background-color: #7c7c7c2b;
     cursor: pointer;
-    float: right; /*deixa do lado direito*/
+    float: right; 
 }
 
 .img-buscar{
@@ -75,7 +75,7 @@ body{
 .texto-previsao{
     color: #ffffff;
     margin-left: 20px;
-    text-transform: capitalize;  /*deixa a primeira  letra maiuscula*/
+    text-transform: capitalize;  
 }
 
 .umidade{

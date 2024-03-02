@@ -14,7 +14,7 @@ function colocarDadosNaTela(dados) {
 
 async function buscarCidade(cidade) {
 
-    const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${key}&lang=pt_br&units=metric `).then(response => response.json()) // await faz com que espere a resposta da api
+    const dados = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${key}&lang=pt_br&units=metric `).then(response => response.json()) //
     
     colocarDadosNaTela(dados);
 }
